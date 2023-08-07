@@ -19,13 +19,14 @@ const Home: FunctionComponent<HomeProps> = ({ userInfo, darkMode }) => {
     let [dataChanged, setDataChanged] = useState<boolean>(false);
     let render = () => setDataChanged(!dataChanged);
     useEffect(() => {
+        document.body.style.backgroundColor = sessionStorage.getItem("darkMode") == "true" ? 'black' : 'white';
         getCards()
             .then((res) => {
                 setCards(res.data)
                 render()
             })
             .catch((err) => console.log(err));
-    }, [dataChanged]);
+    }, [dataChanged, darkMode]);
     let classes = useContext(SiteTheme);
     let classes2 = useContext(SiteTheme2);
     return (
