@@ -1,0 +1,31 @@
+ #menu li {
+     margin-left: 6rem;
+ }
+
+ #footer ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 30rem;
+ }
+
+ #menu .nav-link:hover {
+     background-color: white;
+ }
+
+ .nav-link {
+     width: 12rem;
+     font-size: 2rem;
+ }
+
+ nav .btn {
+     margin-left: 1rem;
+ }
+
+ #aboutNav .nav-link:hover {
+     color: black;
+ }
+
+ #nav-tabContent p {
+     font-size: 2.2rem;
+ }

@@ -1,0 +1,29 @@
+@media (min-width:1383px) and (max-width:1479px) {
+    h1 {
+        font-size: 12rem;
+    }
+
+    #menu .nav-link {
+        width: 10rem;
+        font-size: 2rem;
+    }
+
+    #footer ul {
+        margin-left: 20rem;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1383px) {
+    h1 {
+        font-size: 12rem;
+    }
+
+    #menu .nav-link {
+        width: 6rem;
+        font-size: 1.5rem;
+    }
+
+    #footer ul {
+        margin-left: 20rem;
+    }
+}

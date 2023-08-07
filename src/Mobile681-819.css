@@ -1,0 +1,108 @@
+@media (min-width:681px) and (max-width:767px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    #menu {
+        padding-right: 2rem;
+    }
+
+    #title {
+        width: 100%;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    #title2 {
+        margin-bottom: 2rem;
+    }
+
+    #footer li {
+        width: 11rem;
+    }
+
+    #footer ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-left: 6rem;
+        justify-content: center;
+    }
+
+    #aboutNav button {
+        width: 10rem;
+        font-size: 1.7rem;
+    }
+
+    #nav-tabContent p {
+        font-size: 2.2rem;
+    }
+
+    #nav-tabContent h2 {
+        font-size: 5rem;
+    }
+
+    h3,
+    h2 {
+        font-size: 9rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:819px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    #menu {
+        padding-right: 2rem;
+    }
+
+    #title {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 3rem;
+        margin-left: -2rem;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    #title2 {
+        margin-bottom: 2rem;
+    }
+
+    #footer li {
+        width: 11rem;
+    }
+
+    #footer ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-left: 6rem;
+        justify-content: center;
+    }
+
+    #aboutNav button {
+        width: 10rem;
+        font-size: 1.7rem;
+    }
+
+    #nav-tabContent p {
+        font-size: 2.2rem;
+    }
+
+    #nav-tabContent h2 {
+        font-size: 5rem;
+    }
+
+    h3,
+    h2 {
+        font-size: 9rem;
+    }
+}

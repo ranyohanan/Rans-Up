@@ -2,37 +2,96 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.fa-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.fade-in {
+  animation: fadeIn 4s;
+}
+
+.fade-in2 {
+  animation: fadeIn 8s;
+  font-size: 3rem;
+  margin-bottom: 7rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-size: 15rem;
+}
+
+#title {
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid;
+}
+
+#favTitle,
+#myCardsTitle {
+  margin-top: 14rem;
+  margin-bottom: 9rem;
+  border-bottom: 1px solid;
+}
+
+#loginTitle,
+#registerTitle,
+#addCardTitle,
+#cardDetails,
+#editTitle {
+  margin-top: 10rem;
+}
+
+#title404 {
+  margin-top: 16rem;
+  margin-bottom: 17rem;
+}
+
+#aboutNav {
+  margin-top: 12rem;
+}
+
+#nav-tabContent {
+  margin-bottom: 3rem;
+}
+
+.light-mode-color {
+  color: black;
+}
+
+.light-mode-bgc {
+  background-color: white;
+}
+
+.dark-mode-color {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-mode-bgc {
+  background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title2 .btn:hover {
+  background-color: white;
+  color: black;
 }
