@@ -43,7 +43,7 @@ const MyCards: FunctionComponent<MyCardsProps> = ({ userInfo, darkMode }) => {
                                 </div>
                                 <div className={`card-footer text-start ${classes.background}`}>
                                     <a href={`tel:${card.phone}`}><i className={`fa-solid fa-phone ${classes.color}`} style={{ fontSize: "1.5rem", marginRight: "1rem" }}></i></a>
-                                    <a href={`/cards/edit/${card.id}`}><i className={`fa-regular fa-pen-to-square ${classes.color}`} style={{ fontSize: "1.5rem", marginRight: "1rem" }}></i></a>
+                                    <NavLink to={`/cards/edit/${card.id}`}><i className={`fa-regular fa-pen-to-square ${classes.color}`} style={{ fontSize: "1.5rem", marginRight: "1rem" }}></i></NavLink>
                                 </div>
                             </div>
                         </div>
