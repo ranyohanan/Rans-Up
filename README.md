@@ -25,5 +25,5 @@ json-server --watch db.json --port 8000
 ```
 
 # More info
-- App language: Englis
+- App language: English
 - Author: Ran Yohanan
