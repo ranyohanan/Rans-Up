@@ -18,7 +18,7 @@ Every owner of a card can also change and edit his card whenever he wants.
 - TypeScript
   JavaScript
 - Bootstrap
--mongoDB
+- mongoDB
 - nodeJs
 
 # Run Project
