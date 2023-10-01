@@ -2,6 +2,8 @@
 
 Hey everyone, this is one of my projects that i made on my own in my Fullstak Web Developer course,
  it coded according to specific requests and conditions that were asked when the project assignment was given.
+It's a Fullstack project included a client side and a server side.
+The DB is stored at my mongoDB atlas account.
 
 # About
 
@@ -14,14 +16,19 @@ Every owner of a card can also change and edit his card whenever he wants.
 - CSS
 - REACT
 - TypeScript
+  JavaScript
 - Bootstrap
+- mongoDB
+- nodeJs
 
 # Run Project
+- in client side:
 ```
 npm start
 ```
+- in server side:
 ```
-json-server --watch db.json --port 8000
+nodemon index
 ```
 
 # More info
